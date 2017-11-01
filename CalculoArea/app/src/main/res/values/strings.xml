@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculo Área</string>
+    <string name="retangulo">Retângulo</string>
+    <string name="triangulo">Triângulo</string>
+    <string name="circulo">Círculo</string>
+    <string name="selecione_a_forma">Selecione a forma:</string>
+    <string name="avancar">Avançar</string>
+    <string name="msg_dados_retangulo">Informe os dados do retângulo:</string>
+    <string name="msg_dados_triangulo">Informe os dados do triângulo:</string>
+    <string name="msg_dados_circulo">Informe o raio do círculo:</string>
+    <string name="altura">Altura:</string>
+    <string name="base">Base:</string>
+    <string name="cm">cm</string>
+    <string name="raio">Raio:</string>
+    <string name="comecar_novamente">Começar Novamente</string>
+    <string name="area">Área:</string>
+    <string name="imagem_da_forma_geometrica">Imagem da forma geométrica</string>
+</resources>
