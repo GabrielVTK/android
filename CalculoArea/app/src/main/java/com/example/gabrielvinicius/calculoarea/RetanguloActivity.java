@@ -21,7 +21,7 @@ public class RetanguloActivity extends AppCompatActivity {
         EditText base = (EditText) findViewById(R.id.editTextRaio);
         EditText altura = (EditText) findViewById(R.id.editTextAltura);
 
-        if(base.getText().toString().equals("") || altura.getText().toString().equals("")) {
+        if (base.getText().toString().equals("") || altura.getText().toString().equals("")) {
             Toast.makeText(getApplicationContext(), "Todos os campos devem ser preenchidos!", Toast.LENGTH_LONG).show();
             return;
         }
@@ -42,8 +42,12 @@ public class RetanguloActivity extends AppCompatActivity {
         Intent intencao = new Intent(getApplicationContext(), ResultadoActivity.class);
 
         intencao.putExtras(mochila);
+        startActivityForResult(intencao, 1);
+    }
 
-        startActivity(intencao);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        finish();
     }
 
 }

@@ -37,9 +37,7 @@ public class ResultadoActivity extends AppCompatActivity {
     }
 
     public void comecarNovamente(View view) {
-        Intent intencao = new Intent(getApplicationContext(), MainActivity.class);
-        intencao.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(intencao);
+        finish();
     }
 
 }

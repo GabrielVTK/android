@@ -44,7 +44,12 @@ public class CirculoActivity extends AppCompatActivity {
 
         intencao.putExtras(mochila);
 
-        startActivity(intencao);
+        startActivityForResult(intencao, 1);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        finish();
+    }
+    
 }
