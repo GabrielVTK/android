@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Autonomia</string>
+
+    <string-array name="postos_opcoes">
+        <item>Selecione um posto</item>
+        <item>Texaco</item>
+        <item>Shell</item>
+        <item>Petrobras</item>
+        <item>Ipiranga</item>
+        <item>Outros</item>
+    </string-array>
+</resources>
